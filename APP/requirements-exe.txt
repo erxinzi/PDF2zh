@@ -1,0 +1,11 @@
+# exe 本体（PyInstaller 冻结）最基本的运行环境：Flask 服务 + 配置/任务/裁剪
+# 重型翻译内核（pdf2zh-next / BabelDOC / torch 等）不在这里，
+# 首次使用时由 exe 内自带 uv 联网下载到 exe/core/（瘦 exe 方案）。
+flask
+toml
+pypdf
+argparse
+PyMuPDF
+packaging
+# 构建工具（仅打包机需要；3.14 需要 >=6.15 才有 bootloader 支持）
+pyinstaller>=6.15

@@ -1,0 +1,586 @@
+{
+  "version": 1,
+  "providers": {
+    "openailiked": {
+      "name": "OpenAI-Liked",
+      "models": [
+        "deepseek-v3-2-251201",
+        "deepseek-v3-1-terminus",
+        "deepseek-v3-1-250821",
+        "deepseek-v3-250324",
+        "deepseek-r1-250528",
+        "kimi-k2-250905",
+        "glm-4-7-251222",
+        "doubao-seed-1-6-251015",
+        "doubao-seed-1-6-250615",
+        "doubao-seed-1-6-flash-250615",
+        "doubao-seed-1-6-thinking-250715",
+        "doubao-seed-1-6-thinking-250615",
+        "doubao-seed-translation-250915",
+        "doubao-seed-1-8-251228",
+        "doubao-seed-2-0-pro-260215",
+        "doubao-seed-2-0-lite-260215",
+        "doubao-seed-2-0-mini-260215",
+        "doubao-seed-2-0-code-preview-260215",
+        "doubao-1-5-lite-32k-250115",
+        "doubao-1-5-thinking-pro-250415"
+      ],
+      "urls": [
+        "https://ark.cn-beijing.volces.com/api/v3"
+      ],
+      "modelListUrl": "https://console.volcengine.com/ark/region:ark+cn-beijing/openManagement?LLM=%7B%7D&advancedActiveKey=model",
+      "extraData": []
+    },
+    "openai": {
+      "name": "OpenAI",
+      "models": [
+        "gpt-5",
+        "gpt-5-mini",
+        "gpt-4",
+        "gpt-4",
+        "gpt-4o",
+        "gpt-4o-mini"
+      ],
+      "urls": [
+        "https://api.openai.com/v1"
+      ],
+      "modelListUrl": "https://platform.openai.com/docs/models"
+    },
+    "AliyunDashScope": {
+      "name": "AliyunDashScope",
+      "models": [
+        "qwen3.5-plus",
+        "qwen3.5-flash",
+        "qwen3.5-35b-a3b",
+        "qwen3-max",
+        "qwen-plus",
+        "qwen-flash",
+        "qwen-mt-plus",
+        "qwen-mt-flash"
+      ],
+      "urls": [
+        "https://dashscope.aliyuncs.com/compatible-mode/v1"
+      ]
+    },
+    "silicon": {
+      "name": "SiliconFlow",
+      "models": [
+        "deepseek-ai/DeepSeek-V3.2",
+        "deepseek-ai/DeepSeek-V3.1-Terminus",
+        "deepseek-ai/DeepSeek-R1",
+        "Pro/deepseek-ai/DeepSeek-V3.2",
+        "Pro/deepseek-ai/DeepSeek-V3.1-Terminus",
+        "Pro/deepseek-ai/DeepSeek-R1",
+        "Qwen/Qwen3-8B",
+        "Qwen/Qwen2.5-72B-Instruct",
+        "moonshotai/Kimi-K2-Thinking",
+        "Pro/zai-org/GLM-4.7"
+      ],
+      "urls": [
+        "https://api.siliconflow.cn/v1"
+      ],
+      "modelListUrl": "https://cloud.siliconflow.cn/me/models"
+    },
+    "gemini": {
+      "name": "Gemini",
+      "models": [
+        "gemini-3.0-flash-preview",
+        "gemini-3.0-pro-preview",
+        "gemini-2.5-flash",
+        "gemini-2.5-pro"
+      ]
+    },
+    "azure-openai": {
+      "name": "Azure OpenAI",
+      "models": [
+        "gpt-5",
+        "gpt-5-mini",
+        "gpt-4",
+        "gpt-4",
+        "gpt-4o",
+        "gpt-4o-mini"
+      ]
+    },
+    "zhipu": {
+      "name": "Zhipu",
+      "models": [
+        "glm-4-flash",
+        "glm-4.5",
+        "glm-4.5-x",
+        "glm-4.5-air",
+        "glm-4.5-airx"
+      ],
+      "urls": [
+        "https://api.zhipu.com/v1"
+      ]
+    },
+    "deepseek": {
+      "name": "DeepSeek",
+      "models": [
+        "deepseek-v4-pro",
+        "deepseek-v4-flash"
+      ],
+      "urls": [
+        "https://api.deepseek.com/v1"
+      ],
+      "modelListUrl": "https://platform.deepseek.com/"
+    },
+    "qwen-mt": {
+      "name": "Qwen",
+      "models": [
+        "qwen-plus-latest",
+        "qwen-max",
+        "qwen-max-latest",
+        "qwen-plus",
+        "qwen3-235b-a22b"
+      ]
+    },
+    "ollama": {
+      "name": "Ollama",
+      "models": [
+        "gemma3:12B",
+        "gemma"
+      ],
+      "urls": [
+        "http://localhost:11434"
+      ],
+      "modelListUrl": "https://ollama.com/library"
+    },
+    "modelscope": {
+      "name": "ModelScope",
+      "models": [
+        "openai-mirror/gpt-oss-120b",
+        "openai-mirror/gpt-oss-20b"
+      ],
+      "urls": [
+        "https://api.modelscope.com/v1"
+      ]
+    },
+    "tencent": {
+      "name": "TencentMechineTranslation",
+      "urls": [
+        "https://tencent.com"
+      ]
+    },
+    "grok": {
+      "name": "Grok",
+      "models": [
+        "grok-4-0709",
+        "grok-3",
+        "grok-3-mini"
+      ]
+    },
+    "xinference": {
+      "name": "XInference",
+      "models": [
+        "gemma-2-it"
+      ],
+      "urls": [
+        "http://127.0.0.1:9997"
+      ]
+    },
+    "deepl": {
+      "name": "DeepL"
+    },
+    "claudecode": {
+      "name": "Claude Code",
+      "models": [
+        "sonnet"
+      ],
+      "urls": [
+        "claude"
+      ]
+    }
+  },
+  "languages": {
+    "English": "en",
+    "Simplified Chinese": "zh-CN",
+    "Traditional Chinese - Hong Kong": "zh-HK",
+    "Traditional Chinese - Taiwan": "zh-TW",
+    "Japanese": "ja",
+    "Korean": "ko",
+    "Polish": "pl",
+    "Russian": "ru",
+    "Spanish": "es",
+    "Portuguese": "pt",
+    "Brazilian Portuguese": "pt-BR",
+    "French": "fr",
+    "Malay": "ms",
+    "Indonesian": "id",
+    "Turkmen": "tk",
+    "Filipino (Tagalog)": "tl",
+    "Vietnamese": "vi",
+    "Kazakh (Latin)": "kk",
+    "German": "de",
+    "Dutch": "nl",
+    "Irish": "ga",
+    "Italian": "it",
+    "Greek": "el",
+    "Swedish": "sv",
+    "Danish": "da",
+    "Norwegian": "no",
+    "Icelandic": "is",
+    "Finnish": "fi",
+    "Ukrainian": "uk",
+    "Czech": "cs",
+    "Romanian": "ro",
+    "Hungarian": "hu",
+    "Slovak": "sk",
+    "Croatian": "hr",
+    "Estonian": "et",
+    "Latvian": "lv",
+    "Lithuanian": "lt",
+    "Belarusian": "be",
+    "Macedonian": "mk",
+    "Albanian": "sq",
+    "Serbian (Cyrillic)": "sr",
+    "Slovenian": "sl",
+    "Catalan": "ca",
+    "Bulgarian": "bg",
+    "Maltese": "mt",
+    "Swahili": "sw",
+    "Amharic": "am",
+    "Oromo": "om",
+    "Tigrinya": "ti",
+    "Haitian Creole": "ht",
+    "Latin": "la",
+    "Lao": "lo",
+    "Malayalam": "ml",
+    "Gujarati": "gu",
+    "Thai": "th",
+    "Burmese": "my",
+    "Tamil": "ta",
+    "Telugu": "te",
+    "Oriya": "or",
+    "Armenian": "hy",
+    "Mongolian (Cyrillic)": "mn",
+    "Georgian": "ka",
+    "Khmer": "km",
+    "Bosnian": "bs",
+    "Luxembourgish": "lb",
+    "Romansh": "rm",
+    "Turkish": "tr",
+    "Sinhala": "si",
+    "Uzbek": "uz",
+    "Kyrgyz": "ky",
+    "Tajik": "tg",
+    "Abkhazian": "ab",
+    "Afar": "aa",
+    "Afrikaans": "af",
+    "Akan": "ak",
+    "Aragonese": "an",
+    "Avaric": "av",
+    "Ewe": "ee",
+    "Aymara": "ay",
+    "Ojibwa": "oj",
+    "Occitan": "oc",
+    "Ossetian": "os",
+    "Pali": "pi",
+    "Bashkir": "ba",
+    "Basque": "eu",
+    "Breton": "br",
+    "Chamorro": "ch",
+    "Chechen": "ce",
+    "Chuvash": "cv",
+    "Tswana": "tn",
+    "Ndebele, South": "nr",
+    "Ndonga": "ng",
+    "Faroese": "fo",
+    "Fijian": "fj",
+    "Frisian, Western": "fy",
+    "Ganda": "lg",
+    "Kongo": "kg",
+    "Kalaallisut": "kl",
+    "Church Slavic": "cu",
+    "Guarani": "gn",
+    "Interlingua": "ia",
+    "Herero": "hz",
+    "Kikuyu": "ki",
+    "Rundi": "rn",
+    "Kinyarwanda": "rw",
+    "Galician": "gl",
+    "Kanuri": "kr",
+    "Cornish": "kw",
+    "Komi": "kv",
+    "Xhosa": "xh",
+    "Corsican": "co",
+    "Cree": "cr",
+    "Quechua": "qu",
+    "Kurdish (Latin)": "ku",
+    "Kuanyama": "kj",
+    "Limburgan": "li",
+    "Lingala": "ln",
+    "Manx": "gv",
+    "Malagasy": "mg",
+    "Marshallese": "mh",
+    "Maori": "mi",
+    "Navajo": "nv",
+    "Nauru": "na",
+    "Nyanja": "ny",
+    "Norwegian Nynorsk": "nn",
+    "Sardinian": "sc",
+    "Northern Sami": "se",
+    "Samoan": "sm",
+    "Sango": "sg",
+    "Shona": "sn",
+    "Esperanto": "eo",
+    "Scottish Gaelic": "gd",
+    "Somali": "so",
+    "Southern Sotho": "st",
+    "Tatar": "tt",
+    "Tahitian": "ty",
+    "Tongan": "to",
+    "Twi": "tw",
+    "Walloon": "wa",
+    "Welsh": "cy",
+    "Venda": "ve",
+    "Volapük": "vo",
+    "Interlingue": "ie",
+    "Hiri Motu": "ho",
+    "Igbo": "ig",
+    "Ido": "io",
+    "Inuktitut": "iu",
+    "Inupiaq": "ik",
+    "Sichuan Yi": "ii",
+    "Yoruba": "yo",
+    "Zhuang": "za",
+    "Tsonga": "ts",
+    "Zulu": "zu"
+  },
+  "extra_fields": {
+    "openai": [
+      {
+        "key": "openai_timeout",
+        "type": "string",
+        "zh": "超时秒数",
+        "en": "Timeout (seconds)"
+      },
+      {
+        "key": "openai_temperature",
+        "type": "string",
+        "zh": "温度",
+        "en": "Temperature"
+      },
+      {
+        "key": "openai_reasoning_effort",
+        "type": "enum",
+        "values": [
+          "minimal",
+          "low",
+          "medium",
+          "high"
+        ],
+        "zh": "推理强度",
+        "en": "Reasoning effort"
+      },
+      {
+        "key": "openai_enable_json_mode",
+        "type": "bool",
+        "zh": "JSON 模式（默认关闭）",
+        "en": "JSON mode (off by default)"
+      },
+      {
+        "key": "openai_send_temprature",
+        "type": "bool",
+        "zh": "发送 temperature（上游拼写 temprature）",
+        "en": "Send temperature (upstream spelling)"
+      },
+      {
+        "key": "openai_send_reasoning_effort",
+        "type": "bool",
+        "zh": "发送 reasoning effort",
+        "en": "Send reasoning effort"
+      }
+    ],
+    "aliyundashscope": [
+      {
+        "key": "aliyun_dashscope_timeout",
+        "type": "string",
+        "zh": "超时秒数",
+        "en": "Timeout (seconds)"
+      },
+      {
+        "key": "aliyun_dashscope_temperature",
+        "type": "string",
+        "zh": "温度",
+        "en": "Temperature"
+      },
+      {
+        "key": "aliyun_dashscope_send_temperature",
+        "type": "bool",
+        "zh": "发送 temperature",
+        "en": "Send temperature"
+      },
+      {
+        "key": "aliyun_dashscope_enable_json_mode",
+        "type": "bool",
+        "zh": "JSON 模式（默认关闭）",
+        "en": "JSON mode (off by default)"
+      }
+    ],
+    "ollama": [
+      {
+        "key": "num_predict",
+        "type": "string",
+        "zh": "最大预测 token 数",
+        "en": "Max predicted tokens"
+      }
+    ],
+    "azureopenai": [
+      {
+        "key": "azure_openai_api_version",
+        "type": "string",
+        "zh": "API 版本",
+        "en": "API version"
+      }
+    ],
+    "modelscope": [
+      {
+        "key": "modelscope_enable_json_mode",
+        "type": "bool",
+        "zh": "JSON 模式（默认关闭）",
+        "en": "JSON mode (off by default)"
+      }
+    ],
+    "zhipu": [
+      {
+        "key": "zhipu_enable_json_mode",
+        "type": "bool",
+        "zh": "JSON 模式（默认关闭）",
+        "en": "JSON mode (off by default)"
+      }
+    ],
+    "siliconflow": [
+      {
+        "key": "siliconflow_enable_thinking",
+        "type": "bool",
+        "zh": "启用思考",
+        "en": "Enable thinking"
+      },
+      {
+        "key": "siliconflow_send_enable_thinking_param",
+        "type": "bool",
+        "zh": "发送思考参数",
+        "en": "Send thinking parameter"
+      },
+      {
+        "key": "siliconflow_enable_json_mode",
+        "type": "bool",
+        "zh": "JSON 模式（默认关闭）",
+        "en": "JSON mode (off by default)"
+      }
+    ],
+    "siliconflowfree": [
+      {
+        "key": "siliconflow_free_enable_json_mode",
+        "type": "bool",
+        "zh": "JSON 模式（默认关闭）",
+        "en": "JSON mode (off by default)"
+      }
+    ],
+    "gemini": [
+      {
+        "key": "gemini_enable_json_mode",
+        "type": "bool",
+        "zh": "JSON 模式（默认关闭）",
+        "en": "JSON mode (off by default)"
+      }
+    ],
+    "grok": [
+      {
+        "key": "grok_enable_json_mode",
+        "type": "bool",
+        "zh": "JSON 模式（默认关闭）",
+        "en": "JSON mode (off by default)"
+      }
+    ],
+    "groq": [
+      {
+        "key": "groq_enable_json_mode",
+        "type": "bool",
+        "zh": "JSON 模式（默认关闭）",
+        "en": "JSON mode (off by default)"
+      }
+    ],
+    "deepseek": [
+      {
+        "key": "deepseek_enable_json_mode",
+        "type": "bool",
+        "zh": "JSON 模式（默认关闭）",
+        "en": "JSON mode (off by default)"
+      },
+      {
+        "key": "deepseek_thinking_mode",
+        "type": "enum",
+        "values": [
+          "disabled",
+          "enabled"
+        ],
+        "zh": "思考模式",
+        "en": "Thinking mode"
+      },
+      {
+        "key": "deepseek_reasoning_effort",
+        "type": "enum",
+        "values": [
+          "high",
+          "max"
+        ],
+        "zh": "思考强度",
+        "en": "Reasoning effort"
+      }
+    ],
+    "qwenmt": [
+      {
+        "key": "ali_domains",
+        "type": "string",
+        "zh": "领域提示",
+        "en": "Domain hint"
+      }
+    ],
+    "openaicompatible": [
+      {
+        "key": "openai_compatible_timeout",
+        "type": "string",
+        "zh": "超时秒数",
+        "en": "Timeout (seconds)"
+      },
+      {
+        "key": "openai_compatible_temperature",
+        "type": "string",
+        "zh": "温度",
+        "en": "Temperature"
+      },
+      {
+        "key": "openai_compatible_reasoning_effort",
+        "type": "enum",
+        "values": [
+          "minimal",
+          "low",
+          "medium",
+          "high"
+        ],
+        "zh": "推理强度",
+        "en": "Reasoning effort"
+      },
+      {
+        "key": "openai_compatible_send_temperature",
+        "type": "bool",
+        "zh": "发送 temperature",
+        "en": "Send temperature"
+      },
+      {
+        "key": "openai_compatible_send_reasoning_effort",
+        "type": "bool",
+        "zh": "发送 reasoning effort",
+        "en": "Send reasoning effort"
+      },
+      {
+        "key": "openai_compatible_enable_json_mode",
+        "type": "bool",
+        "zh": "JSON 模式（默认关闭）",
+        "en": "JSON mode (off by default)"
+      }
+    ]
+  }
+}

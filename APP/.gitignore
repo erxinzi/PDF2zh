@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.build-venv/
+build/
+dist/
+cache/
+core/
+logs/
+output/
+translated/
+_staging/
+_tools/
+settings.json
+config/*.json
+config/*.toml
+config/*.bak
+!config/*.example

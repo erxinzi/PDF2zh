@@ -1,0 +1,260 @@
+<linkset
+    ><html:link rel="localization" href="__addonRef__-preferences.ftl"
+/></linkset>
+<html:style
+    >.pdf2zh-notes p { margin: 8px 0; line-height: 1.6; } .pdf2zh-notes a {
+    color: #1a73e8; text-decoration: underline; cursor: pointer; }</html:style
+>
+<groupbox
+    onload="Zotero.__addonInstance__.hooks.onPrefsEvent('load', { window });"
+    ><vbox>
+        <hbox align="center"
+            ><html:label
+                for="zotero-prefpane-__addonRef__-skipLastPages"
+                data-l10n-id="pref-skipLastPages" /><html:input
+                id="zotero-prefpane-__addonRef__-skipLastPages"
+                preference="extensions.zotero.__addonRef__.skipLastPages"
+                type="number"
+                min="0"
+                style="width: 70px; text-align: center"
+        /></hbox>
+        <hbox align="center" flex="1"
+            ><checkbox
+                id="zotero-prefpane-__addonRef__-rename"
+                preference="extensions.zotero.__addonRef__.rename" /><html:label
+                for="zotero-prefpane-__addonRef__-rename"
+                data-l10n-id="pref-rename"
+        /></hbox>
+        <hbox align="center" flex="1"
+            ><checkbox
+                id="zotero-prefpane-__addonRef__-showProgress"
+                preference="extensions.zotero.__addonRef__.showProgress" /><html:label
+                for="zotero-prefpane-__addonRef__-showProgress"
+                data-l10n-id="pref-showProgress"
+        /></hbox>
+        <hbox align="center" flex="1"
+            ><checkbox
+                id="zotero-prefpane-__addonRef__-transFirst"
+                preference="extensions.zotero.__addonRef__.transFirst" /><html:label
+                for="zotero-prefpane-__addonRef__-transFirst"
+                data-l10n-id="pref-transFirst"
+        /></hbox>
+        <html:h3 data-l10n-id="pref-pdf2x-config-title" />
+        <hbox align="center"
+            ><html:label
+                for="zotero-prefpane-__addonRef__-fontFamily"
+                data-l10n-id="pref-fontFamily"
+            /><html:select
+                id="zotero-prefpane-__addonRef__-fontFamily"
+                preference="extensions.zotero.__addonRef__.fontFamily"
+                ><html:option value="auto">auto</html:option
+                ><html:option value="serif">serif</html:option
+                ><html:option value="sans-serif">sans-serif</html:option
+                ><html:option value="script">script</html:option></html:select
+            ></hbox
+        >
+        <hbox align="center"
+            ><html:label
+                for="zotero-prefpane-__addonRef__-dualMode"
+                data-l10n-id="pref-dualMode"
+            /><html:select
+                id="zotero-prefpane-__addonRef__-dualMode"
+                preference="extensions.zotero.__addonRef__.dualMode"
+                ><html:option value="LR">左右对照</html:option
+                ><html:option value="TB"
+                    >原文/译文交替页</html:option
+                ></html:select
+            ></hbox
+        >
+        <hbox align="center" flex="1"
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-ocr"
+                    preference="extensions.zotero.__addonRef__.ocr" /><html:label
+                    for="zotero-prefpane-__addonRef__-ocr"
+                    data-l10n-id="pref-ocr" /></hbox
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-autoOcr"
+                    preference="extensions.zotero.__addonRef__.autoOcr" /><html:label
+                    for="zotero-prefpane-__addonRef__-autoOcr"
+                    data-l10n-id="pref-autoOcr" /></hbox
+        ></hbox>
+        <hbox align="center" flex="1"
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-noWatermark"
+                    preference="extensions.zotero.__addonRef__.noWatermark" /><html:label
+                    for="zotero-prefpane-__addonRef__-noWatermark"
+                    data-l10n-id="pref-noWatermark" /></hbox
+            ><hbox flex="1"
+        /></hbox>
+        <hbox align="center" flex="1"
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-saveGlossary"
+                    preference="extensions.zotero.__addonRef__.saveGlossary" /><html:label
+                    for="zotero-prefpane-__addonRef__-saveGlossary"
+                    data-l10n-id="pref-saveGlossary" /></hbox
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-disableGlossary"
+                    preference="extensions.zotero.__addonRef__.disableGlossary" /><html:label
+                    for="zotero-prefpane-__addonRef__-disableGlossary"
+                    data-l10n-id="pref-disableGlossary" /></hbox
+        ></hbox>
+        <hbox align="center" flex="1"
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-noDual"
+                    preference="extensions.zotero.__addonRef__.noDual" /><html:label
+                    for="zotero-prefpane-__addonRef__-noDual"
+                    data-l10n-id="pref-noDual" /></hbox
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-noMono"
+                    preference="extensions.zotero.__addonRef__.noMono" /><html:label
+                    for="zotero-prefpane-__addonRef__-noMono"
+                    data-l10n-id="pref-noMono" /></hbox
+        ></hbox>
+        <hbox align="center" flex="1"
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-skipClean"
+                    preference="extensions.zotero.__addonRef__.skipClean" /><html:label
+                    for="zotero-prefpane-__addonRef__-skipClean"
+                    data-l10n-id="pref-skipClean" /></hbox
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-enhanceCompatibility"
+                    preference="extensions.zotero.__addonRef__.enhanceCompatibility" /><html:label
+                    for="zotero-prefpane-__addonRef__-enhanceCompatibility"
+                    data-l10n-id="pref-enhanceCompatibility" /></hbox
+        ></hbox>
+        <hbox align="center" flex="1"
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-disableRichTextTranslate"
+                    preference="extensions.zotero.__addonRef__.disableRichTextTranslate" /><html:label
+                    for="zotero-prefpane-__addonRef__-disableRichTextTranslate"
+                    data-l10n-id="pref-disableRichTextTranslate" /></hbox
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-translateTableText"
+                    preference="extensions.zotero.__addonRef__.translateTableText" /><html:label
+                    for="zotero-prefpane-__addonRef__-translateTableText"
+                    data-l10n-id="pref-translateTableText" /></hbox
+        ></hbox>
+        <hbox align="center" flex="1"
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-onlyIncludeTranslatedPage"
+                    preference="extensions.zotero.__addonRef__.onlyIncludeTranslatedPage" /><html:label
+                    for="zotero-prefpane-__addonRef__-onlyIncludeTranslatedPage"
+                    data-l10n-id="pref-onlyIncludeTranslatedPage" /></hbox
+            ><hbox flex="1"
+        /></hbox>
+        <html:h3 data-l10n-id="pref-gen" />
+        <hbox align="center" flex="1"
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-mono"
+                    preference="extensions.zotero.__addonRef__.mono" /><html:label
+                    for="zotero-prefpane-__addonRef__-mono"
+                    data-l10n-id="pref-mono" /></hbox
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-mono-open"
+                    preference="extensions.zotero.__addonRef__.mono-open" /><html:label
+                    for="zotero-prefpane-__addonRef__-mono-open"
+                    data-l10n-id="pref-open" /></hbox
+        ></hbox>
+        <hbox align="center" flex="1"
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-dual"
+                    preference="extensions.zotero.__addonRef__.dual" /><html:label
+                    for="zotero-prefpane-__addonRef__-dual"
+                    data-l10n-id="pref-dual" /></hbox
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-dual-open"
+                    preference="extensions.zotero.__addonRef__.dual-open" /><html:label
+                    for="zotero-prefpane-__addonRef__-dual-open"
+                    data-l10n-id="pref-open" /></hbox
+        ></hbox>
+        <hbox align="center" flex="1"
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-mono-cut"
+                    preference="extensions.zotero.__addonRef__.mono-cut" /><html:label
+                    for="zotero-prefpane-__addonRef__-mono-cut"
+                    data-l10n-id="pref-mono-cut" /></hbox
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-mono-cut-open"
+                    preference="extensions.zotero.__addonRef__.mono-cut-open" /><html:label
+                    for="zotero-prefpane-__addonRef__-mono-cut-open"
+                    data-l10n-id="pref-open" /></hbox
+        ></hbox>
+        <hbox align="center" flex="1"
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-dual-cut"
+                    preference="extensions.zotero.__addonRef__.dual-cut" /><html:label
+                    for="zotero-prefpane-__addonRef__-dual-cut"
+                    data-l10n-id="pref-dual-cut" /></hbox
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-dual-cut-open"
+                    preference="extensions.zotero.__addonRef__.dual-cut-open" /><html:label
+                    for="zotero-prefpane-__addonRef__-dual-cut-open"
+                    data-l10n-id="pref-open" /></hbox
+        ></hbox>
+        <hbox align="center" flex="1"
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-crop-compare"
+                    preference="extensions.zotero.__addonRef__.crop-compare" /><html:label
+                    for="zotero-prefpane-__addonRef__-crop-compare"
+                    data-l10n-id="pref-crop-compare" /></hbox
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-crop-compare-open"
+                    preference="extensions.zotero.__addonRef__.crop-compare-open" /><html:label
+                    for="zotero-prefpane-__addonRef__-crop-compare-open"
+                    data-l10n-id="pref-open" /></hbox
+        ></hbox>
+        <hbox align="center" flex="1"
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-compare"
+                    preference="extensions.zotero.__addonRef__.compare" /><html:label
+                    for="zotero-prefpane-__addonRef__-compare"
+                    data-l10n-id="pref-compare" /></hbox
+            ><hbox align="center" flex="1"
+                ><checkbox
+                    id="zotero-prefpane-__addonRef__-compare-open"
+                    preference="extensions.zotero.__addonRef__.compare-open" /><html:label
+                    for="zotero-prefpane-__addonRef__-compare-open"
+                    data-l10n-id="pref-open" /></hbox
+        ></hbox>
+        <html:div class="pdf2zh-notes"
+            ><html:h3>注意事项</html:h3>
+            <html:p
+                >插件基于Zotero PDF2zh二次开发，源码来自：
+                <html:a href="https://github.com/guaguastandup/zotero-pdf2zh"
+                    >https://github.com/guaguastandup/zotero-pdf2zh</html:a
+                ></html:p
+            >
+            <html:p
+                >关于本二开插件的所有信息，请访问<html:a
+                    href="https://github.com/erxinzi/PDF2zh"
+                    >https://github.com/erxinzi/PDF2zh</html:a
+                ></html:p
+            >
+            <html:p>本插件为免费开源插件，请勿在其他渠道购买本插件</html:p>
+            <html:p>PDF2zh for Zotero __buildVersion__</html:p>
+        </html:div></vbox
+    ></groupbox
+>
