@@ -4,6 +4,7 @@ PDF2zh 桌面翻译 APP 与 Zotero 插件，当前版本为 v1.0.0。支持本�
 
 ## 功能
 
+- 提供GUI界面，开箱即用，一键配置环境
 - 在 APP 中配置翻译供应商、API、模型与思考参数，插件继承后端接口设置。
 - 支持纯译文、双语对照、裁剪及左右拼接等输出格式。
 - 提供任务进度、暂停、继续、取消、历史任务和分级日志。
@@ -57,6 +58,6 @@ python -m unittest discover -s tests -v
 
 ## 来源与许可
 
-本项目基于 [guaguastandup/zotero-pdf2zh](https://github.com/guaguastandup/zotero-pdf2zh) 二次开发；本项目主页为 [erxinzi/PDF2zh](https://github.com/erxinzi/PDF2zh)。
+本项目基于 [guaguastandup/zotero-pdf2zh](https://github.com/guaguastandup/zotero-pdf2zh) 二次开发；
 
 本项目免费开源，遵循 AGPL-3.0，许可原文见 [LICENSE](LICENSE)。请勿通过其他渠道购买。
